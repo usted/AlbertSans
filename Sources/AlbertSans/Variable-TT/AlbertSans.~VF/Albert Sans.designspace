@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" minimum="400" maximum="400" name="weight" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="150" input="400"/>
+  </axis>
+  <axis default="0" minimum="0" maximum="1" name="custom" tag="cust">
+   <labelname xml:lang="en">Custom</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Albert Sans" filename="masters/AlbertSans-100.ufo" stylename="100" name="100">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="-50" name="weight"/>
+    <dimension xvalue="0" name="custom"/>
+   </location>
+  </source>
+  <source familyname="Albert Sans" filename="masters/AlbertSans-500.ufo" stylename="500" name="500">
+   <location>
+    <dimension xvalue="44" name="weight"/>
+    <dimension xvalue="0" name="custom"/>
+   </location>
+  </source>
+  <source familyname="Albert Sans" filename="masters/AlbertSans-900.ufo" stylename="900" name="900">
+   <location>
+    <dimension xvalue="150" name="weight"/>
+    <dimension xvalue="0" name="custom"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-100-Thin.ufo" stylename="100 - Thin" name="100 - Thin">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="-48" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-200-ExtraLight.ufo" stylename="200 - Extra Light" name="200 - Extra Light">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="-40" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-300-Light.ufo" stylename="300 - Light" name="300 - Light">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="-8" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-350-SemiLight.ufo" stylename="350 - Semi Light" name="350 - Semi Light">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="4" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-400-Regular.ufo" stylename="400 - Regular" name="400 - Regular">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="17" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-500-Medium.ufo" stylename="500 - Medium" name="500 - Medium">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="45" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-600-SemiBold.ufo" stylename="600 - Semi Bold" name="600 - Semi Bold">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="58" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-700-Bold.ufo" stylename="700 - Bold" name="700 - Bold">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="73" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-800-ExtraBold.ufo" stylename="800 - Extra Bold" name="800 - Extra Bold">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="90" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Albert Sans" filename="instances/AlbertSans-900-Black.ufo" stylename="900 - Black" name="900 - Black">
+   <location>
+    <dimension xvalue="0" name="custom"/>
+    <dimension xvalue="113" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
