@@ -1,9 +1,5 @@
 {
 .appVersion = "3091";
-DisplayStrings = (
-"AÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/tilde ÃÆ/AEacute BC/Cacute/Ccaron Ç/Cdotaccent DÐ/Dcaron/Dcroat EÉ/Ebreve/caron/Ecaron ÊË/Edotaccent È/Emacron/Eogonek/Etilde FG/Gbreve/Gcommaaccent/Gdotaccent HIÍ/Ibreve ÎÏ/Idotaccent Ì/Imacron/Iogonek/Itilde JK/Kcommaaccent L/Lacute/Lcaron/Lcommaaccent/Ldot/Lslash MN/Nacute/Ncaron/Ncommaaccent ÑOÓ/Obreve ÔÖÒ/Ohungarumlaut/Omacron ØÕ/OE PÞQR/Racute/Rcaron/Rcommaaccent S/Sacute/Scaron/Scedilla/Scommaaccent T/Tcaron/Tcedilla/Tcommaaccent UÚ/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring/Utilde VW/Wacute W/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ygrave/Ytilde Z/Zacute/Zcaron/Zdotaccent/a.old á/abreve âäà/amacron a/aogonek åãæ/aeacute bc/cacute/ccaron ç/cdotaccent dð/dcaron/dcroat eé/ebreve/ecaron êë/edotaccent è/emacron e/eogonek/etilde fg/gbreve/gcommaaccent/gdotaccent hií/ibreve îïì/imacron/iogonek/itilde jk/kcommaaccent l/lacute/lcaron/lcommaaccent/ldot/lslash mn/nacute/ncaron/ncommaaccent ñoó/obreve ôöò/ohungarumlaut/omacron øõ/oe pþqr/racute/rcaron/rcommaaccent s/sacute/scaron/scedilla/scommaaccent ßt/tcaron/tcedilla/tcommaaccent uú/ubreve ûüù/uhungarumlaut/umacron/uogonek/uring/utilde vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ygrave/ytilde z/zacute/zcaron/zdotaccent/fi/fl ªº/pi/Schwa/schwa a",
-C
-);
 classes = (
 {
 code = "colon exclam period question semicolon quotedblleft quotedblright quoteleft quoteright questiondown exclamdown periodcentered ellipsis comma divide";
@@ -417,6 +413,11 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
@@ -439,7 +440,7 @@ Tag = ital;
 }
 );
 date = "2021-08-03 19:15:46 +0000";
-designer = "Andreas Rasmussen,  Jonny Pinhorn";
+designer = "Andreas Rasmussen";
 designerURL = andreasrasmussen.net;
 familyName = "Albert Sans";
 fontMaster = (
@@ -450,23 +451,23 @@ custom = "100";
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -518,11 +519,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -254;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -567,23 +568,23 @@ custom = "500";
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -635,11 +636,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -262;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -689,23 +690,23 @@ custom = "900";
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -757,11 +758,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -270;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -812,23 +813,23 @@ custom = 900.Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -880,11 +881,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -270;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -935,23 +936,23 @@ custom = 500.Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -1003,11 +1004,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -262;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -1057,23 +1058,23 @@ custom = 100.Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 720;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
-value = 810;
+value = 1100;
 },
 {
 name = winDescent;
-value = 200;
+value = 300;
 },
 {
 name = underlineThickness;
@@ -1125,11 +1126,11 @@ value = 600;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -254;
+value = -250;
 },
 {
 name = hheaLineGap;
